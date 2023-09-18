@@ -36,6 +36,17 @@
                 </dependency>
 
         </dependencies>
+        <distributionManagement>
+                <repository>
+                <id>nexus</id>
+                <name>Rabinni Global Releases Nexus Repository</name>
+                <url>http://35.175.102.52:8081/repository/tesla-releases/
+                </repository>
+                <snapshotRepository>
+                 <id>nexus</id>
+                 <name>Rabinni Global snapshot Nexus Repository </name>
+                 <url>http://35.175.102.52:8081/repository/tesla-snapshot/
+                 </snapshotrepository>
 
         <!-- Committing and updating changes through Maven, by using below mvn command.
                 For Commiting mvn -Dmessage="Updated using maven" scm:checkin For updating
